@@ -1,4 +1,5 @@
-﻿using SalaryPackaging.Common;
+﻿using System.Linq;
+using SalaryPackaging.Common;
 using System.Collections.Generic;
 using Microsoft.Extensions.Options;
 using SalaryPackaging.Business.Contract;
@@ -21,17 +22,11 @@ namespace SalaryPackaging.Business
             deductionRules.Add(new IncomeTaxRule(taxYear));
         }
 
-        public IList<Common.Deduction> GetDeductions(double taxableIncome)
+        public virtual IList<Common.Deduction> GetDeductions(double taxableIncome)
         {
-            var deductions = new List<Common.Deduction>();
-
-            foreach(var deductionRule in deductionRules)
-            {
-                var deduction = deductionRule.Calc(taxableIncome);
-                deductions.Add(deduction);
-            }
-
-            return deductions;
+            return (from deductionRule in deductionRules
+                    let deduction = deductionRule.Calc(taxableIncome)
+                    select deduction).ToList();
         }
     }
 }

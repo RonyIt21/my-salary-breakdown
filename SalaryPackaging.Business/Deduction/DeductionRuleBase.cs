@@ -50,7 +50,7 @@ namespace SalaryPackaging.Business.Deduction
 
                 if (rate > 0)
                 {
-                    double diff = 0;
+                    double diff;
                     if (i + 1 == keys.Count)
                         diff = taxableIncome - keys[i];
                     else
