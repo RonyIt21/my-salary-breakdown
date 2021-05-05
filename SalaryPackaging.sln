@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryPackaging.TestHarness
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryPackaging.Common", "SalaryPackaging.Common\SalaryPackaging.Common.csproj", "{4263A601-09E3-43D3-B64C-4DBD1E8D267D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryPackaging.Business.Contract", "SalaryPackaging.Contract\SalaryPackaging.Business.Contract.csproj", "{42989838-AC9E-4BE0-B068-464D3DBE9E12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryPackaging.Business.Contract", "SalaryPackaging.Business.Contract\SalaryPackaging.Business.Contract.csproj", "{42989838-AC9E-4BE0-B068-464D3DBE9E12}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryPackaging.Business", "SalaryPackaging.Business\SalaryPackaging.Business.csproj", "{FEB28736-F87A-4DD7-93DC-F8E2D8D7E8F2}"
 EndProject

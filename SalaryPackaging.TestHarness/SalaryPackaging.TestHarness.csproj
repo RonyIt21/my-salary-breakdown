@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SalaryPackaging.Contract\SalaryPackaging.Business.Contract.csproj" />
+    <ProjectReference Include="..\SalaryPackaging.Business.Contract\SalaryPackaging.Business.Contract.csproj" />
     <ProjectReference Include="..\SalaryPackaging.Startup\SalaryPackaging.Startup.csproj" />
   </ItemGroup>
 

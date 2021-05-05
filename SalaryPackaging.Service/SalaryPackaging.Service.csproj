@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SalaryPackaging.Common\SalaryPackaging.Common.csproj" />
-    <ProjectReference Include="..\SalaryPackaging.Contract\SalaryPackaging.Business.Contract.csproj" />
+    <ProjectReference Include="..\SalaryPackaging.Business.Contract\SalaryPackaging.Business.Contract.csproj" />
     <ProjectReference Include="..\SalaryPackaging.Core\SalaryPackaging.Core.csproj" />
     <ProjectReference Include="..\SalaryPackaging.Service.Contract\SalaryPackaging.Service.Contract.csproj" />
   </ItemGroup>
